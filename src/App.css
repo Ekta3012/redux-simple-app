@@ -1,28 +1,29 @@
-.App {
-  text-align: center;
+body{
+  padding: 10%;
+}
+.form-control{
+  width: 50%;
+  display: inline ;
+  margin-right: 2%;
+}
+.btn-success{
+  border: none;
+  border-radius: 15px;
+  padding: 4px 9px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.btn-danger{
+  border: none;
+  border-radius: 15px;
+  padding: 2px 8px;
+  margin-left: 2%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.list{
+  margin-top: 3%;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.btn:active:focus, .btn:focus {
+  outline: none;
+  /* outline-offset: -2px; */
 }
